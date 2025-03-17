@@ -1,0 +1,8 @@
+Exercise 10-2 Use d311.csv as a data source, and perform the following steps:
+
+1. Create a subdirectory SPRK/Ex2 in HDFS and upload the d311.csv file to that subdirectory.
+2. Start the Spark shell and read the d311.csv file. View the schema and note that the column names match the record field names in the CSV file. Provide a screenshot of the schema.
+3. Display the data in the DataFrame using the show function. How many records are displayed? Display the first five records of the DataFrame. Provide a screenshot of the result.
+4. Use the count action to return the number of items in the DataFrame. Provide a screenshot of the result.
+5. Use a select transformation to return a DataFrame with only the Created Date, Agency, Complaint Type and City. The select transformation should return all columns with an alias instead of the real name. Display the schema of the new DataFrame. Provide a screenshot of the result.
+6. Write a query (a series of one or more transformations followed by an action) that displays the first 20 lines of Agency, City, Complaint Type, where City is not null. Provide a screenshot of the result.

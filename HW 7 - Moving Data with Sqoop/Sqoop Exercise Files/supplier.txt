@@ -1,0 +1,4 @@
+1	PG	Pacifica Gear
+2	WL	Wilderness Limited
+3	OA	Outdoor Adventures
+4	MK	Mountain King

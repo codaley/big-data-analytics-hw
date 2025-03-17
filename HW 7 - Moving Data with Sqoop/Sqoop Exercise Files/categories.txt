@@ -1,0 +1,6 @@
+category_id	category_abbrev	category_name
+1	EL	Electronics
+2	CP	Camping
+3	FW	Footwear
+4	CL	Climbing
+5	CY	Cycling

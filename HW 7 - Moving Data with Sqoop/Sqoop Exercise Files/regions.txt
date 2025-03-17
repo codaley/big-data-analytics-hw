@@ -1,0 +1,4 @@
+1	I	Indiana
+2	N	North
+3	C	Chicagoland
+4	T	Tristate

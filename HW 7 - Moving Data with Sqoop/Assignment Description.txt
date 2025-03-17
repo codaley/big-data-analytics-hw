@@ -1,0 +1,20 @@
+For this exercise, you will use the following two files: CustomerDetails.txt and LatePayments.txt. Perform the following operations:
+
+1. Log in to MySQL, create the database, and insert the records into the two tables of this database.
+2. Verify that both tables are created correctly and contain records.
+3. Load the data from these two tables into HDFS using the Sqoop import command.
+4. Using Hive, create a similar database and create and populate both tables.
+5. Perform the following:
+a. Display customers (ID, name, year of birth, and zip code) from the state of New York.
+b. Display the total number of customers who have late payments for each zip code.
+c. Display the customers who have any late transactions and the date of each late transaction for the customers born before 1985.
+d. Display the cities and the number of customers who do not have a credit card for each city, sorted by the number of customers.
+e. Display the states and the number of customers who have late payments and use mobile banking in each state.
+f. Display all customers who do not have a mobile phone.
+g. Display all customers who have late payments and the number of late payments, sorted by the number of late payments.
+h. Display customers (ID, name, city, state) who have no late payments and the total number of on-time payments. Order the output by the number of on-time payments.
+i. Display customers (ID, name, city, state) who have no late payments and use the Internet for banking.
+6. Store the results of the following query in HDFS:
+a. Display all customers who have late payments and the number of late payments, sorted by the number of late payments.
+7. Move the results of the query in #6 above from HDFS into the bank_db database in MySQL using the Sqoop export command.
+8. Perform a select all to verify that the results were exported correctly.

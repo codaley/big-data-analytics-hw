@@ -1,0 +1,16 @@
+Assignment: Finding the Highest Stock Price for Each Stock Symbol Using Hadoop MapReduce
+
+In this assignment, you will analyze a dataset of historical stock prices using Hadoop MapReduce. The dataset consists of stock price records, including the stock symbol, opening price, closing price, highest price, lowest price, and trading volume. Your task is to determine the highest recorded stock price for each stock symbol in the dataset.
+
+Instructions:
+Develop a MapReduce program that processes the dataset to find the highest stock price for each stock symbol.
+
+The Mapper should:
+Read input data in CSV format.
+Extract the stock symbol and highest stock price from each row.
+Emit key-value pairs in the format: (stock_symbol, stock_price_high).
+
+The Reducer should:
+Aggregate all records by stock symbol.
+Compute the maximum stock price for each symbol.
+Output each stock symbol with its highest recorded stock price.

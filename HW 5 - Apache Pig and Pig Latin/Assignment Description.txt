@@ -1,0 +1,9 @@
+Use the files investor.txt and stockprice.txt to perform the following actions:
+
+1. Upload the two files to HDFS (if not uploaded before).
+2. Load the files as investors and stock_prices.
+3. Display both files to make sure they are loaded correctly.
+4. Display the structure of relation investors and stock_prices.
+5. Perform explain on stock_prices and observe the logical, physical, and MapReduce execution plans.
+6. Group investors by their stock symbols that they have purchased and display the results.
+7. Combine both relations with a union command and display the results.

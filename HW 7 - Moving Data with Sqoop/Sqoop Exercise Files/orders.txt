@@ -1,0 +1,5 @@
+id	order_date	required_date	status	customer_id
+1	15/05/2020	19/05/2020	Delivered	8-9-000
+2	20/05/2020	27/05/2020	Not ready	7-8-999
+3	18/05/2020	19/05/2020	Delivered	3-4-555
+4	02/02/2019	02/02/2019	Delivered	9-0-111
